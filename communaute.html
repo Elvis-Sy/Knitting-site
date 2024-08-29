@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projet de Safidy</title>
+</head>
+<style>
+    body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f9f9f9;
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 5px 20px;
+    }
+
+    .logo {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+
+    .logo span{
+        font-size: 30px;
+        color: #f44a7f;
+    }
+
+    .liens {
+        list-style: none;
+        display: flex;
+        gap: 20px;
+    }
+
+    .liens li {
+        display: inline;
+        border-right: 4px solid #333;
+        padding-right: 20px;
+    }
+
+    .liens a {
+        text-decoration: none;
+        color: #333;
+        font-weight: bold;
+    }
+
+    .bouton {
+        text-decoration: none;
+        background-color: #8b272f;
+        color: #fff;
+        padding: 10px 20px;
+        border-radius: 5px;
+    }
+
+    .couverture {
+        display: flex;
+        align-items: center;
+        padding: 50px 150px;
+        background-color: #fae1ec;
+    }
+
+    .contenus {
+        max-width: 60%;
+    }
+
+    .contenus h1 {
+        font-size: 36px;
+        margin: 0 0 20px;
+    }
+
+    .contenus h1 span{
+        color: #f44a7f;
+    }
+
+    .contenus p {
+        font-size: 20px;
+        margin: 0 0 20px;
+    }
+
+    main{
+        margin: 20px 10px;
+        padding: 10px 150px;
+    }
+
+    main section{
+        margin-bottom: 50px;
+    }
+
+    .corps{
+        display: flex;
+        align-items: center;
+        gap: 50px;
+    }
+
+    .corps h2{
+        color: #f44a7f;
+    }
+
+    .corps p{
+        font-size: 20px;
+    }
+
+    .intro button{
+        border: none;
+        text-decoration: none;
+        background-color: #8b272f;
+        color: #fff;
+        padding: 10px 20px;
+        border-radius: 5px;
+    }
+
+    .groupe{
+        margin-left: 100px;
+    }
+
+    .sous-corps h4{
+        margin-bottom: 0;
+        color: #8b272f;
+    }
+    .sous-corps p{
+        margin-top: 0;
+        font-size: medium;
+    }
+</style>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                Le <SPan>M</SPan>onde du <SPan>C</SPan>rochet
+            </div>
+            <ul class="liens">
+                <li><a href="index.html">Techniques et Tutoriels</a></li>
+                <li><a href="inspiration.html">Inspiration et Créations</a></li>
+                <li><a href="communaute.html">Communauté et Événements</a></li>
+            </ul>
+            <a href="#" class="bouton">Contacter</a>
+        </nav>
+        <div class="couverture">
+            <div class="contenus">
+                <h1>Le <span>crochet</span>, c’est aussi une <span>communauté</span> chaleureuse et accueillante</h1>
+                <p>Rejoignez-nous et participez aux événements pour partager votre passion.</p>
+            </div>
+            <div class="illustration">
+                <img src="images/illustration4.png" alt="Yarn balls">
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="corps">
+            <img src="images/illustration5.png" alt="illustration" width="400px">
+            <div class="intro">
+                <h2>Événements à venir :</h2>
+                <p>Consultez notre calendrier des événements pour ne rien manquer : ateliers, salons, et rencontres de crocheteurs. Chaque événement est une occasion unique d’apprendre, d’échanger, et de rencontrer d'autres passionnés.</p>
+                <button type="button">Consulter calendrier</button>
+            </div>
+        </section>
+        <section class="corps">
+            <div class="intro">
+                <h2>Présentation des groupes de crochet :</h2>
+                <p>Découvrez les groupes de crochet près de chez vous ou en ligne. Ces groupes offrent des réunions régulières pour crocheter ensemble, échanger des idées, et organiser des projets communs. Vous y trouverez une communauté solidaire prête à vous accueillir.</p>
+                <div class="groupe">
+                    <div class="sous-corps">
+                        <h4>Groupes locaux :</h4>
+                        <p>Trouvez des groupes de crochet près de chez vous où vous pouvez participer à des rencontres régulières, des sessions de crochet collectif, et des ateliers thématiques. Chaque groupe est présenté avec ses coordonnées, ses activités, et les témoignages de ses membres.</p>
+                        <button type="button">Voir</button>
+                    </div>
+                    <div class="sous-corps">
+                        <h4>Groupes en ligne :</h4>
+                        <p>Si vous préférez crocheter depuis chez vous, rejoignez des groupes en ligne actifs sur les réseaux sociaux ou des plateformes dédiées. Vous y trouverez des discussions animées, des challenges crochet, et des échanges de patrons.</p>
+                        <button type="button">Voir</button>
+                    </div>
+                </div>
+            </div>
+            <img src="images/illustration6.png" alt="illustration" width="400px">
+        </section>
+    </main>
+</body>
+</html>

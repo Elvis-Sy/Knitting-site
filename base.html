@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projet de Safidy</title>
+</head>
+<style>
+    body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f9f9f9;
+    }
+
+    header{
+        text-align: center;
+    }
+
+    .titre{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .titre span{
+        color: #f44a7f;
+    }
+
+    .titre img{
+        width: 60px;
+    }
+
+    .basique{
+        background-color: #fae1ec;
+        display: flex;
+        gap: 20px;
+        align-items: center;
+        padding: 50px;
+    }
+
+    .basique img{
+        width: 40%;
+    }
+
+    main{
+        margin: 20px 10px;
+        padding: 10px 50px;
+    }
+
+    section{
+        display: flex;
+        gap: 30px;
+        margin-top: 50px;
+    }
+
+    section h3{
+        color: #f44a7f;
+    }
+
+    .contenu{
+        display: flex;
+        gap: 20px;
+    }
+
+    .contenu img{
+        border-radius: 5%;
+    }
+    .step{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        color: #8b272f;
+        font-weight: bolder;
+    }
+
+    .corps{
+        display: flex;
+        gap: 30px;
+    }
+
+    .tuto{
+        background-color: #fae1ec;
+        padding: 30px 50px;
+    }
+
+    .tuto h2{
+        text-align: center;
+        color: #8b272f;
+        padding: 0 10px;
+    }
+
+    .tuto div{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 50px;
+    }
+</style>
+<body>
+    <header>
+        <div class="titre">
+            <h1>Apprendre les <span>bases du crochet</span></h1>
+            <img src="images/illustration2.png">
+        </div>
+        <div class="basique">
+            <img src="images/points.jfif" alt="points">
+            <h2>"Le crochet se compose de plusieurs points de base essentiels qui permettent de créer une variété infinie de motifs et de textures. Parmi les plus courants, on trouve la maille en l'air, la maille serrée, la demi-bride et la bride. Chaque point a ses propres caractéristiques et applications pour divers projets."</h2>
+        </div>
+    </header>
+
+    <main>
+        <section>
+            <div>
+                <h3>La maille en l'air:</h3>
+                <p>
+                    La maille en l'air, aussi appelée chaînette, est une technique de base au crochet utilisée 
+                    pour commencer un projet, monter dans les rangs ou créer des espaces dans un motif. 
+                    Pour réaliser une maille en l'air, on commence par faire un nœud coulant sur le crochet, puis on enroule le fil autour du crochet et on le tire à travers la boucle existante pour former une nouvelle boucle. Cette action est répétée pour créer une série de mailles en l'air, formant ainsi une chaînette.
+                </p>
+            </div>
+            <div class="contenu">
+                <img src="images/air.jfif" alt="air" width="400px">
+            </div>
+        </section>
+        <section>
+            <div>
+                <h3>La maille serrée:</h3>
+                <div class="corps">
+                    <div class="contenu">
+                        <div class="step">
+                            <img src="images/maille1.jpg" alt="etapes" width="250px">
+                            <p>Etape 1</p>
+                        </div>
+                        <div class="step">
+                            <img src="images/maille2.jfif" alt="etapes" width="250px">
+                            <p>Etape 2</p>
+                        </div>
+                        <div class="step">
+                            <img src="images/maille3.jpg" alt="etapes" width="250px">
+                            <p>Etape 3</p>
+                        </div>
+                    </div>
+                    <p>
+                        La maille serrée est un point de base au crochet qui crée une texture dense et serrée. 
+                        Pour la réaliser, insérez le crochet dans la maille du rang précédent, faites un jeté en enroulant le fil autour du crochet, 
+                        puis tirez le fil à travers la maille, créant ainsi deux boucles sur le crochet. Faites un autre jeté et tirez à travers les deux boucles pour terminer la maille serrée. Ce point est utilisé pour des ouvrages nécessitant peu d'espaces ajourés, comme les amigurumis ou les accessoires.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section style="margin-top: 100px; margin-bottom: 100px;">
+            <div>
+                <h3>La bride:</h3>
+                <p>
+                    La bride est un point de crochet plus haut et plus aéré que la maille serrée, souvent utilisé pour créer des motifs ajourés. 
+                    Pour faire une bride, commencez par faire un jeté en enroulant le fil autour du crochet, insérez le crochet dans la maille du rang précédent, faites un autre jeté et tirez le fil à travers la maille, 
+                    ce qui crée trois boucles sur le crochet. Ensuite, faites un jeté et tirez à travers les deux premières boucles, puis faites un dernier jeté et tirez à travers les deux boucles restantes, complétant ainsi la bride. Ce point est idéal pour ajouter de la hauteur et de la légèreté aux ouvrages.
+                </p>
+            </div>
+            <div class="contenu">  
+                <img src="images/bride.jpg" alt="etapes" width="400px">
+            </div>
+        </section>
+    </main>
+
+    <div class="tuto">
+        <h2>Tutoriels avancés :</h2>
+        <p>Pour les crocheteurs plus expérimentés, explorez des techniques avancées comme le crochet tunisien, les points en relief, et les motifs complexes. Suivez nos vidéos tutoriels et nos guides détaillés pour améliorer vos compétences.</p>
+        <div>
+            <video src="videos/tuto1.mp4" width="250px" height="250px" controls></video>
+            <video src="videos/tuto2.mp4" width="250px" height="250px" controls></video>
+            <video src="videos/tuto3.mp4" width="250px" height="250px" controls></video>
+            <video src="videos/tuto4.mp4" width="250px" height="250px" controls></video>
+        </div>
+    </div>
+
+</body>
+</html>
